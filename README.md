@@ -241,20 +241,19 @@ DELIMITER ;
 
 ```sql
 DELIMITER //
-
 CREATE TRIGGER calcular_total_venta
     BEFORE INSERT ON ventas
     FOR EACH ROW
 BEGIN
-    -- Obtener precio actual del producto
-    SELECT precio INTO NEW.precio_unitario
+    DECLARE precio_producto DECIMAL(10,2);
+    
+    SELECT precio INTO precio_producto
     FROM productos 
     WHERE id_producto = NEW.id_producto;
     
-    -- Calcular total
-    SET NEW.total = NEW.cantidad * NEW.precio_unitario;
+    SET NEW.precio_unitario = precio_producto;
+    SET NEW.total = NEW.cantidad * precio_producto;
 END//
-
 DELIMITER ;
 ```
 
