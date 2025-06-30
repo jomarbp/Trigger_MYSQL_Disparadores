@@ -471,7 +471,7 @@ Este proyecto está bajo la Licencia MIT. Ver `LICENSE` para más detalles.
 ## 👨‍💻 Autor
 
 **Tu Nombre**
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
+- GitHub: [@jomarbp](https://github.com/jomarbp)
 - Email: tu-email@ejemplo.com
 
 ---
