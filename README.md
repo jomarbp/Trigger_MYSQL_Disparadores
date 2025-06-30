@@ -472,7 +472,7 @@ Este proyecto está bajo la Licencia MIT. Ver `LICENSE` para más detalles.
 
 **Tu Nombre**
 - GitHub: [@jomarbp](https://github.com/jomarbp)
-- Email: tu-email@ejemplo.com
+- Email: jomar.bp17@gmail.com
 
 ---
 
